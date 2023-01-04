@@ -1,35 +1,86 @@
+<!--GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport-->
+
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Josh Daniel Project Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <!--Introduction-->
     <header>
-        <!--Introduction-->
-        <h1>Josh Daniel</h1>
-        <h2>Student Developer</h2>
-        <img src="Wizard Josh Grid.jpg" alt="Wizard giving a fist bump">
+      <h1>Josh Daniel</h1>
+
+      <h2>Student Developer</h2>
+      <img
+        src="assets/images/wizard-josh.jpg"
+        alt="Wizard giving a fist bump"
+        height="250"
+        width="250"
+      />
+
+      <nav>
+        <a href="#">About Me</a>
+        <a href="#">My Works</a>
+        <a href="#">Contact Info</a>
+      </nav>
+
+      <p>
+        I am new to web development and coding, looking to make webpages and
+        applications that are helpful or fun!
+      </p>
     </header>
 
-    <!--About me-->
-    <section>
-        <p>I am new to web development and coding, looking to make webpages and applications that are helpful or fun!
-        </p>
-    </section>
-
     <!--Portfolio Links-->
-    <section>
-        <ul>
-            <li>
-                <a href="https://jmod333.github.io/prework-study-guide/">Prework Study Guide</a>
-            </li>
-            <li> More to come!</li>
-        </ul>
-    </section>
-</body>
-
+    <article>
+      <ul>
+        <li>
+          <a href="https://jmod333.github.io/prework-study-guide/">
+            <img
+              src="assets/images/prework-study-guide.png"
+              alt="Prework Study Guide"
+              height="200"
+              width="500"
+            />Prework Study Guide
+          </a>
+        </li>
+        <li>
+          <a href="https://jmod333.github.io/box-jump-game/">
+            <img
+              src="assets/images/box-jump-game.jp.png"
+              alt="Box Jump Game"
+              height="100"
+              width="400"
+            />
+            Box Jump Game</a
+          >
+        </li>
+        <li>
+          <a href="https://kurtmj93.github.io/show-me-songs/">
+            <img
+              src="assets/images/show-me-songs.png"
+              alt="Show Me Songs Application"
+              height="100"
+              width="400"
+            />
+            Show Me Songs</a
+          >
+        </li>
+      </ul>
+    </article>
+  </body>
 </html>
