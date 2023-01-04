@@ -7,6 +7,6 @@ Images are clickable hyperlinks that will take you to the deployed project.
 
 ## Screenshots
 
-![Assets/images/josh-web-portfolio-1.png](.Assets/images/josh-web-portfolio-1.png)
+![assets/images/josh-web-portfolio-1.png](.assets/images/josh-web-portfolio-1.png)
 
-![Assets/images/josh-web-portfolio-2.png](.Assets/images/josh-web-portfolio-2.png)
+![assets/images/josh-web-portfolio-2.png](.assets/images/josh-web-portfolio-2.png)
