@@ -16,7 +16,8 @@ THEN I am presented with a responsive layout that adapts to my viewport-->
 <html lang="en-us">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="Assets/style.css" />
     <title>Josh Daniel Project Portfolio</title>
   </head>
 
@@ -34,12 +35,12 @@ THEN I am presented with a responsive layout that adapts to my viewport-->
       />
 
       <nav>
-        <a href="#">About Me</a>
-        <a href="#">My Works</a>
-        <a href="#">Contact Info</a>
+        <a href="#about">About Me</a>
+        <a href="#works">My Works</a>
+        <a href="#contact">Contact Info</a>
       </nav>
 
-      <p>
+      <p id="about">
         I am new to web development and coding, looking to make webpages and
         applications that are helpful or fun!
       </p>
@@ -47,7 +48,7 @@ THEN I am presented with a responsive layout that adapts to my viewport-->
 
     <!--Portfolio Links-->
     <article>
-      <ul>
+      <ul id="works">
         <li>
           <a href="https://jmod333.github.io/prework-study-guide/">
             <img
@@ -82,5 +83,10 @@ THEN I am presented with a responsive layout that adapts to my viewport-->
         </li>
       </ul>
     </article>
+
+    <!--Contact info-->
+    <footer>
+      <p id="contact">email:jmod333@gmail.com</p>
+    </footer>
   </body>
 </html>
